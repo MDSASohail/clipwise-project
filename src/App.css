@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+.trans{
+    background-color: rgba(255, 255, 255, 0.3);
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.shadowBG{
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.3);
+    /* border: 2px solid red; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.flexItem
+{
+    flex: 9;
+}
+.flexItem2{
+   flex: 7;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.productItems:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* Responsive */
+@media screen and (max-width:700px) {
+    .size700
+    {
+         flex-direction: column;
+         padding: 10px;
+         height: fit-content;
+         
+    }
+
+    
+    
+    .headingSO
+    {
+        font-size: 40px;
+    }
+    .specialOfferMainDiv
+    {
+        height: fit-content;
+        
+    }
+
+    .bigCircle
+    {
+        transform: translate(0px);
+    }
+
+    .scrollDown
+    {
+         /* position: relative; */
+         /* margin: 50px; */
+         bottom: -35px;
+         
+    }
+
+    .HeroSectionIMG
+    {
+        /* padding: 20px auto; */
+        /* border: 2px solid green; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        
+    }
+
+    .paddingTOp
+    {
+
+        padding-top: 100px;
+        
+    }
+    
 }

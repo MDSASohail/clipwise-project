@@ -1,0 +1,35 @@
+export const users=[
+    {name:"Sohail Ansari",email:"sohail@gmail.com",org:"Nike",Agents:10,role:"AI Agent based"},
+    {name:"Binod Rawat",email:"mrrawat@gmail.com",org:"Netomi",Agents:15,role:"AI Agent based"},
+    {name:"Saurabh Sukhla",email:"sukhala@gmail.com",org:"Computer",Agents:6 ,role:"Manager"},
+    {name:"Subham Kumar",email:"itssubham@gamail.com",org:"Management",Agents:12 ,role:"Manager"},
+    {name:"Washim Alam",email:"washil@gmail.com",org:"Development",Agents:22 ,role:"Developer"},
+    {name:"Waish",email:"waish",org:"Ducat",Agents:11 ,role:"Teacher"},
+    {name:"Yogesh Ram",email:"ram@gmail.com",org:"Electrical",Agents:22 ,role:"Manager"},
+    {name:"Sohail Ansari",email:"sohail@gmail.com",org:"Nike",Agents:10,role:"AI Agent based"},
+    {name:"Binod Rawat",email:"mrrawat@gmail.com",org:"Netomi",Agents:15,role:"AI Agent based"},
+    {name:"Saurabh Sukhla",email:"sukhala@gmail.com",org:"Computer",Agents:6 ,role:"Manager"},
+    {name:"Subham Kumar",email:"itssubham@gamail.com",org:"Management",Agents:12 ,role:"Manager"},
+    {name:"Washim Alam",email:"washil@gmail.com",org:"Development",Agents:22 ,role:"Developer"},
+    {name:"Waish",email:"waish",org:"Ducat",Agents:11 ,role:"Teacher"},
+    {name:"Yogesh Ram",email:"ram@gmail.com",org:"Electrical",Agents:22 ,role:"Manager"},
+];
+
+export const agents=[
+    {agents:"123ABCAgent 1 ",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/23 3.00PM ",assign:false},
+    {agents:"123ABCAgent 2",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/24 4PM ",assign:true},
+    {agents:"123ABCAgent 3 ",phase:"Beta",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:" 12/01/24 1 PM",assign:false},
+    {agents:"123ABCAgent 4 ",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"22/04/23 09 AM ",assign:true},
+    {agents:"123ABCAgent 5  ",phase:"Pilot",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"11/08/24 01 PM ",assign:false},
+    {agents:"123ABCAgent 1 ",phase:"Inactive",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/23 3.00PM ",assign:true},
+    {agents:"123ABCAgent 2",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/24 4PM ",assign:true},
+    {agents:"123ABCAgent 3 ",phase:"Beta",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:" 12/01/24 1 PM",assign:false},
+    {agents:"123ABCAgent 4 ",phase:"Inactive",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"22/04/23 09 AM ",assign:true},
+    {agents:"123ABCAgent 5  ",phase:"Pilot",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"11/08/24 01 PM ",assign:false},
+    {agents:"123ABCAgent 1 ",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/23 3.00PM ",assign:true},
+    {agents:"123ABCAgent 2",phase:"Closed",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"06/08/24 4PM ",assign:true},
+    {agents:"123ABCAgent 3 ",phase:"Beta",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:" 12/01/24 1 PM",assign:false},
+    {agents:"123ABCAgent 4 ",phase:"Official",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"22/04/23 09 AM ",assign:true},
+    {agents:"123ABCAgent 5  ",phase:"Closed",access:["AI Agent Admin","Observer","Full Admin","Hello"],modified:"11/08/24 01 PM ",assign:false},
+    
+]
